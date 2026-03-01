@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Syne, Outfit } from "next/font/google";
+import { Geist, Geist_Mono, Syne, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,8 +17,8 @@ const syne = Syne({
   subsets: ["latin", "latin-ext"],
 });
 
-const outfit = Outfit({
-  variable: "--font-outfit",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin", "cyrillic"],
 });
 
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${outfit.variable} antialiased font-sans`}
+        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${montserrat.variable} antialiased font-sans`}
       >
         {children}
       </body>

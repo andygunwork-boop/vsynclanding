@@ -19,7 +19,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-syne: var(--font-syne);
-  --font-outfit: var(--font-outfit);
+  --font-montserrat: var(--font-montserrat);
 }
 
 body {
@@ -37,7 +37,7 @@ html {
 }
 
 .font-hero-bg {
-  font-family: var(--font-outfit), var(--font-sans), sans-serif;
+  font-family: var(--font-montserrat), var(--font-sans), sans-serif;
 }
 
 /* Subtle grid background */
