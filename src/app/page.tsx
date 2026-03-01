@@ -61,7 +61,7 @@ export default function Home() {
             className="flex flex-col items-center justify-center gap-5 max-w-2xl mx-auto text-center"
           >
             <motion.a
-              href="https://t.me/syncv_bot"
+              href="https://t.me/vpublish_bot"
               target="_blank"
               rel="noopener noreferrer"
               variants={item}
@@ -132,7 +132,7 @@ export default function Home() {
             className="max-w-xl mx-auto text-center"
           >
             <a
-              href="https://t.me/syncv_bot"
+              href="https://t.me/vpublish_bot"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-sky-500 to-sky-600 px-8 py-4 font-display font-semibold text-white shadow-[0_0_30px_rgba(56,189,248,0.4)] transition hover:shadow-[0_0_40px_rgba(56,189,248,0.5)] hover:from-sky-400 hover:to-sky-500"
@@ -150,12 +150,12 @@ export default function Home() {
               SyncV
             </span>
             <a
-              href="https://t.me/syncv_bot"
+              href="https://t.me/vpublish_bot"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sky-400/90 hover:text-sky-300 text-sm transition"
             >
-              t.me/syncv_bot
+              t.me/vpublish_bot
             </a>
           </div>
         </footer>
