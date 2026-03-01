@@ -19,7 +19,7 @@ const syne = Syne({
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
-  subsets: ["latin", "cyrillic"],
+  subsets: ["latin", "latin-ext"],
 });
 
 export const metadata: Metadata = {
