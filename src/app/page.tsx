@@ -74,7 +74,7 @@ export default function Home() {
             >
               <Image
                 src="/SyncCoube.svg"
-                alt="SyncV — открыть в Telegram"
+                alt="vPublish 2026 — открыть в Telegram"
                 width={480}
                 height={480}
                 priority
@@ -147,7 +147,7 @@ export default function Home() {
         <footer className="mt-auto py-6 px-5 border-t border-[var(--border-subtle)]">
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
             <span className="font-display text-sm text-slate-500">
-              SyncV
+              vPublish 2026
             </span>
             <a
               href="https://t.me/vpublish_bot"

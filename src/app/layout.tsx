@@ -23,7 +23,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "SyncV — Видео во все сети одним ботом",
+  title: "vPublish 2026 — Видео во все сети одним ботом",
   description:
     "Загружайте видео в YouTube, Telegram, VK и Яндекс.Дзен через одного Telegram-бота. AI создаёт обложки к видео автоматически.",
 };
